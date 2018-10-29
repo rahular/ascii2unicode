@@ -1,0 +1,18 @@
+{
+  "name": "ascii2unicode",
+  "version": "0.0.1",
+  "description": "Kannada ascii to unicode converter",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
